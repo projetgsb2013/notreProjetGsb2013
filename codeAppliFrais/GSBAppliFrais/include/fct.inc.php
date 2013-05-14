@@ -20,10 +20,11 @@ function estConnecte(){
  * @param $nom
  * @param $prenom
  */
-function connecter($id,$nom,$prenom){
+function connecter($id,$nom,$prenom,$libelle){
 	$_SESSION['idVisiteur']= $id; 
 	$_SESSION['nom']= $nom;
 	$_SESSION['prenom']= $prenom;
+        $_SESSION['libelle']=$libelle;
 }
 /**
  * Détruit la session active
@@ -173,35 +174,6 @@ function valideInfosFrais($dateFrais,$libelle,$montant){
 	else
 		if( !is_numeric($montant) ){
 			ajouterErreur("Le champ montant doit être numérique");
-		}
-}
-
-/** VERSION EN FONCTION valideInfosFrais
- */
-
-function valideInfosFraisEN($dateFrais,$libelle,$montant){
-	if($dateFrais==""){
-		ajouterErreur("Case can't be empty.");
-	}
-	else{
-		if(!estDatevalide($dateFrais)){
-			ajouterErreur("Disabled date");
-		}	
-		else{
-			if(estDateDepassee($dateFrais)){
-				ajouterErreur("Date of recording exceeded, more than 1 year.");
-			}			
-		}
-	}
-	if($libelle == ""){
-		ajouterErreur("Description case can't be empty.");
-	}
-	if($montant == ""){
-		ajouterErreur("Amount case can't be empty");
-	}
-	else
-		if( !is_numeric($montant) ){
-			ajouterErreur("Amount case must be numeric.");
 		}
 }
 /**

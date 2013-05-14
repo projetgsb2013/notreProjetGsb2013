@@ -1,12 +1,10 @@
-<?php
-echo"
 <h3>Ajouter un nouveau frais hors forfait</h3>
 <form method='POST' action='index.php?uc=gererFrais&action=validerCreationFrais'>
 <table class='tabNonQuadrille'>
 <tr>
 	<td>Date du frais (jj/mois/aaaa)</td>
 	<td>
-		<input  type='text' name=dateFrais  size='30' maxlength='45'>
+                <input  type='text' name=dateFrais  size='30' maxlength='45'>
 	</td>
 </tr>
 <tr>
@@ -33,8 +31,6 @@ echo"
 
 </table>
 <input type='submit' value='Valider' name='valider'>
-         <input type='reset' value='Annuler' name='annuler'>
+<input type='reset' value='Annuler' name='annuler'>
 
 </form>
-";
-?>
