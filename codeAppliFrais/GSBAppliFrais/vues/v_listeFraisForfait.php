@@ -1,5 +1,5 @@
 <div id="contenu">
-      <h2>Renseigner ma fiche de frais du mois <?php echo $numMois."-".$numAnnee ?></h2>         
+      <h2>Renseigner ma fiche de frais du mois de <?php echo $strMois." ".$numAnnee ?></h2>         
       <form method="POST"  action="index.php?uc=gererFrais&action=validerMajFraisForfait">
       <div class="corpsForm">
           
