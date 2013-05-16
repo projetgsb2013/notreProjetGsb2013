@@ -1,4 +1,4 @@
-﻿<table class="listeLegere">
+<table class="listeLegere">
     <caption>Descriptif des éléments hors forfait</caption>
              <tr>
                 <th class="date">Date</th>

@@ -1,7 +1,7 @@
 <div id="contenu">
       <h2>Enter my monthly report <?php echo $numMois."-".$numAnnee ?></h2>
          
-      <form method="POST"  action="index.php?uc=gererFrais&action=validerMajFraisForfait">
+      <form method="POST"  action="indexEN.php?uc=gererFrais&action=validerMajFraisForfait">
       <div class="corpsForm">
           
           <fieldset>

@@ -1,4 +1,9 @@
 <?php
+function edition()
+    {
+    options("Width=700,Height=700") ;
+    window.open( "edition.php", "edition", options ) ;
+    }
 require_once("include/fct.inc.php");
 require_once ("include/class.pdogsb.inc.php");
 include("vues/v_entete.php") ;
@@ -14,12 +19,11 @@ switch($uc){
 		include("controleursEN/c_connexionEN.php");break;
 	}
 	case 'gererFrais' :{
-		include("controleursEN/c_gererFraisEN.php");break;
+		include("controleurs/c_gererFraisEN.php");break;
 	}
 	case 'etatFrais' :{
-		include("controleursEN/c_etatFraisEN.php");break; 
+		include("controleurs/c_etatFraisEN.php");break; 
 	}
 }
 include("vuesEN/v_piedEN.php") ;
 ?>
-

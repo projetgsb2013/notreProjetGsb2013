@@ -1,7 +1,7 @@
 <?php
 echo"
 <h3>Add a new excluding expenses</h3>
-<form method='POST' action='index.php?uc=gererFrais&action=validerCreationFrais'>
+<form method='POST' action='indexEN.php?uc=gererFrais&action=validerCreationFrais'>
 <table class='tabNonQuadrille'>
 <tr>
 	<td>Date (jj/mois/aaaa)</td>

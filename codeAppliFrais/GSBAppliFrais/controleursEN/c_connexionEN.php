@@ -14,8 +14,8 @@ switch($action){
 		$visiteur = $pdo->getInfosVisiteur($login,$mdp);
 		if(!is_array( $visiteur)){
 			ajouterErreur("Wrong username or password");
-			include("vuesEN/v_erreursEN.php");
-			include("vuesEN/v_connexionEN.php");
+			include(".vuesEN/v_erreursEN.php");
+			include(".vuesEN/v_connexionEN.php");
 		}
 		else{
 			$id = $visiteur['id'];

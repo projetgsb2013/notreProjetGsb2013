@@ -1,7 +1,7 @@
 ﻿ <div id="contenu">
       <h2>My expenses reports</h2>
       <h3>Select a month : </h3>
-      <form action="index.php?uc=etatFrais&action=voirEtatFrais" method="post">
+      <form action="indexEN.php?uc=etatFrais&action=voirEtatFrais" method="post">
       <div class="corpsForm">
          
       <p>

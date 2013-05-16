@@ -21,7 +21,7 @@
                 <td> <?php echo $date ?></td>
                 <td><?php echo $libelle ?></td>
                 <td><?php echo $montant ?></td>
-                <td><a href="index.php?uc=gererFrais&action=supprimerFrais&idFrais=<?php echo $id ?>" 
+                <td><a href="indexEN.php?uc=gererFrais&action=supprimerFrais&idFrais=<?php echo $id ?>" 
 				onclick="return confirm('Are you sure ?');">Delete report</a></td>
              </tr>
 	<?php		 
@@ -30,7 +30,7 @@
 	?>	  
                                           
     </table>
-      <form action="index.php?uc=gererFrais&action=validerCreationFrais" method="post">
+      <form action="indexEN.php?uc=gererFrais&action=validerCreationFrais" method="post">
       <div class="corpsForm">
          
           <fieldset>

@@ -2,7 +2,7 @@
       <h2>User Identification</h2>
 
 
-<form method="POST" action="index.php?uc=connexion&action=valideConnexion">
+<form method="POST" action="indexEN.php?uc=connexion&action=valideConnexion">
    
     
 			<p>
